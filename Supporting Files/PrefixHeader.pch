@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  BinFengExpressOwner
+//
+//  Created by 邓伟浩 on 2018/10/12.
+//  Copyright © 2018年 BinFeng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#if __OBJC__
+
+// 全局宏
+#import "ThirdMacros.h"
+#import "UtilsMacros.h"
+
+// 第三方库
+#import "YYKit.h"
+#import "masonry.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
